@@ -1,0 +1,25 @@
+{
+  "entities": {
+    "Lectura": {
+      "title": "Lectura",
+      "description": "Sesión de lectura de un estudiante",
+      "type": "object",
+      "properties": {
+        "fecha": { "type": "string", "format": "date-time" },
+        "puntuacion": { "type": "number" },
+        "perfil": { "type": "string" },
+        "regresiones": { "type": "number" },
+        "tiempoInactivo": { "type": "number" },
+        "parrafoActual": { "type": "number" },
+        "tema": { "type": "string" }
+      },
+      "required": ["fecha", "puntuacion", "perfil"]
+    }
+  },
+  "firestore": {
+    "lecturas": {
+      "schema": "Lectura",
+      "description": "Colección de sesiones de lectura guardadas"
+    }
+  }
+}

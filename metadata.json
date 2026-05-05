@@ -1,0 +1,5 @@
+{
+  "name": "Focused Playroom",
+  "description": "Agente pedagógico inteligente que analiza la atención del lector mediante eye-tracking simulado y genera intervenciones personalizadas.",
+  "requestFramePermissions": []
+}
